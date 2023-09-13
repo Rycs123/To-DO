@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Todo Apps</h1>
+        <hr />
+      </div>
+      <div class="body_todo">
+        <div class="input_body">
+          <input id="task_form" type="text" placeholder="Masukkan task" />
+          <button id="btn_click">+ Add Task</button>
+        </div>
+        <div class="table_body">
+          <table border="1" cellspacing="0">
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Task</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="tBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
